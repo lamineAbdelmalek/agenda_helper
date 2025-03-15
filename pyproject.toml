@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "agenda_helper"
+version = "0.1.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "~3.10"
+fastapi = "^0.104.1"
+gunicorn = "^21.2.0"
+uvicorn = {version = "^0.23.0", extras = ["standard"]}
+langchain = "^0.3.20"
+langchain-core = "^0.3.45"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+mypy = "^1.7.1"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+requests = "^2.31.0"
+httpx = "^0.25.2"
+
+[tool.poetry.scripts]
+simple_task = "agenda_helper.entry_points:simple_task"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+files = ["agenda_helper", "tests"]
+ignore_missing_imports = true
