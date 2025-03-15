@@ -11,6 +11,12 @@ gunicorn = "^21.2.0"
 uvicorn = {version = "^0.23.0", extras = ["standard"]}
 langchain = "^0.3.20"
 langchain-core = "^0.3.45"
+google-auth = "^2.38.0"
+google-auth-oauthlib = "^1.2.1"
+google-auth-httplib2 = "^0.2.0"
+google-api-python-client = "^2.164.0"
+langchain-openai = "^0.3.8"
+streamlit = "^1.43.2"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.1.0"
