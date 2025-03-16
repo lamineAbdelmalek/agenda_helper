@@ -54,7 +54,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 
-if prompt := st.chat_input("Chnou bghiti a lkassoul?"):
+if prompt := st.chat_input("Hello, what can I do for you?"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.session_state.llm_interactions.append(HumanMessage(prompt))
