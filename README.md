@@ -7,7 +7,7 @@ Agenda helper is an LLM powered tool allowing you to query your personal google 
 - ✅ Check availibilities in your agenda
 - ✅ Book events in your agenda
 
-![Screenshot](https://imgur.com/gallery/agenda-helper-yIIRN6Z)
+![Screenshot](https://i.imgur.com/gLe2o33.png)
 
 ##  Tech Stack
 - **Programming Language:** Python
